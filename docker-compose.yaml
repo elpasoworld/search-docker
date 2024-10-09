@@ -44,7 +44,7 @@ services:
 
   searxng:
     container_name: searxng
-    image: docker.io/elpasoworld/search-master:latest
+    image: docker.io/elpasoworld/search-master:v003
     restart: unless-stopped
     networks:
       - searxng
